@@ -14,8 +14,5 @@ Matrix matrix2 = new Matrix(new float[,]
     {-2, 9, 8}
 });
 
-
-Matrix matrix3 = Matrix.Transpose(matrix2);
-Matrix.PrintMatrix(matrix2);
-Console.WriteLine();
+Matrix matrix3 = Matrix.Multiply(matrix1, matrix2);
 Matrix.PrintMatrix(matrix3);
